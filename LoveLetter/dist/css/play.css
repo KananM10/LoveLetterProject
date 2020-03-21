@@ -1,0 +1,135 @@
+.main{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    height: 620px;
+    background-color: black;
+    position: relative;
+    margin: auto;
+}
+
+.rivals{
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+
+.center{
+    display: flex;
+    flex-direction: row;
+    padding: 0 50px;
+}
+
+.centerDeck{
+    background-color: white; 
+    color: black; 
+    border: 1px solid white;
+    width: 250px !important;
+    height: 140px;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    margin: 40px 0 0 270px;
+}
+
+.Cards , .putCards{
+    width: 100px !important;
+    height: 130px !important;
+}
+
+p{
+    margin: 0;
+    padding: 1px 8px;
+}
+
+.lastPlayed, .deckCards{
+    height: 110px;
+    width: 90px;
+/*    border: 1px solid black;
+    border-radius: 2px;*/
+    margin-top: 8px;
+    margin-left: 5px;
+}
+
+.Cards{
+    margin: 0 0 0 40px;
+}
+
+.deckCards{
+    position: relative;
+}
+
+.cardsBack, .card{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 85px !important;
+    height: 100px !important;
+    margin: 5px;
+}
+
+.listOfCards{
+    background-color: white; 
+    color: black; 
+    border: 1px solid white;
+    width: 150px;
+    border-radius: 5px;
+    height: 160px;
+    margin-top: 35px;
+}
+
+.list{
+    list-style-type: none;
+    padding: 5px 6px;
+    margin: 0;
+}
+
+.player{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.gamer, .rival{
+    height: 150px;
+    width: 250px;
+    background-color: white;
+    margin: auto;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.handcards{
+    display: flex !important;
+    flex-direction: row !important;
+    height: 120px;
+    width: 250px;
+    padding: 5px;
+}
+
+.hearts{
+    height: 40px;
+    width: 250px;
+}
+
+.firstCard, .secondCard{
+    width: 100px !important;
+    height: 110px !important;
+    position: relative;
+}
+
+.secondCard{
+    /*position: relative;*/
+    margin: 0 0 0 40px;
+}
+
+.heart{
+    height: 25px;
+    width: 25px;
+}
