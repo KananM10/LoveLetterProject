@@ -1,0 +1,85 @@
+
+@font-face {
+    font-family: American Captain;
+    src: url(./font/American\ Captain.otf);
+}
+.menu {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-image: url("../../assets/images/background.png");   */
+    overflow: hidden;
+    height: 100vh;
+    background-color: #E874B0;
+}
+
+/* @media (max-width: 150px){
+    .menu{
+        background-image: url("../../assets/images/background1.png");
+        overflow: hidden; 
+        height: 75.7px;
+    }
+}  */
+
+.gameName {
+	text-transform: uppercase;
+	margin: 100px 0 30px 0;
+	display: flex;
+	box-sizing: border-box;
+}
+
+.name {
+  /*text-align: center;*/
+  font-family: American Captain;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 100px;
+  margin-top: 20px;
+  height: 60px;
+  color: white;
+  text-shadow: -4px 4px #D4D4D4;
+}
+
+.logo{
+	width: 60px;
+	height: 60px;
+}
+
+ .user{
+    position: absolute;
+    padding: 2px 10px;
+    min-width: 200px;
+    max-width: 450px;
+    height: 40px;
+    left: 20px;
+    top: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    background: #FFFFFF;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.userPhoto{
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+    padding: 7px;
+    background-color: #E874B0;
+    border-radius: 200px;
+}
+
+.userName, .userPhoto{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    /*line-height: 32px;*/
+    color: #060E4F;
+} 
